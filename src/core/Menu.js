@@ -15,6 +15,7 @@ const Menu = ({ history }) => (
   <>
     <div
       style={{
+        zIndex: 2,
         position: 'relative',
         backgroundColor: '#f1f1f1',
         borderBottom: '2px solid #000',

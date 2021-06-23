@@ -7,13 +7,13 @@ const Footer = () => {
         <div className='container'>
           <ul className='foote_bottom_ul_amrc'>
             <li>
-              <a href='#/'>Home</a>
+              <a href='/'>Home</a>
             </li>
             <li>
-              <a href='#/mobilecover'>Mobile Cover</a>
+              <a href='/mobilecover'>Mobile Cover</a>
             </li>
             <li>
-              <a href='#/tshirt'>Tshirts</a>
+              <a href='/tshirt'>Tshirts</a>
             </li>
           </ul>
           <p className='text-center'>Copyright @2021 | Merchistan</p>

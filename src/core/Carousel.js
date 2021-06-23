@@ -24,7 +24,7 @@ const Carousel = () => {
         </ol>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
-            <a href='#/mobilecover'>
+            <a href='/mobilecover'>
               <LazyLoad>
                 <img
                   src={`${img1}`}
@@ -46,7 +46,7 @@ const Carousel = () => {
           </div>
 
           <div className='carousel-item'>
-            <a href='#/tshirt'>
+            <a href='/tshirt'>
               <lazyLoad>
                 <img
                   src={`${img2}`}
@@ -60,7 +60,6 @@ const Carousel = () => {
                 <p>
                   An Amazing Place To Shop
                   <span className='fw-bold' style={{ color: 'white' }}>
-                    {' '}
                     Merch.
                   </span>
                 </p>
@@ -97,53 +96,3 @@ const Carousel = () => {
   )
 }
 export default Carousel
-{
-  /* <div
-        id='carouselExampleControls'
-        classNameName='carousel slide'
-        data-bs-ride='carousel'
-      >
-        <div classNameName='carousel-inner'>
-          <div classNameName='carousel-item active'>
-            <img
-              src={`${i02}`}
-              style={{ height: '550px' }}
-              classNameName='d-block w-100'
-              alt='...'
-            />
-          </div>
-          <div classNameName='carousel-item'>
-            <img
-              src={`${img}`}
-              style={{ height: '550px' }}
-              classNameName='d-block w-100'
-              alt='...'
-            />
-          </div>
-        </div>
-        <a
-          classNameName='carousel-control-prev'
-          href='#carouselExampleControls'
-          role='button'
-          data-bs-slide='prev'
-        >
-          <span
-            classNameName='carousel-control-prev-icon'
-            aria-hidden='true'
-          ></span>
-          <span classNameName='visually-hidden'>Previous</span>
-        </a>
-        <a
-          classNameName='carousel-control-next'
-          href='#carouselExampleControls'
-          role='button'
-          data-bs-slide='next'
-        >
-          <span
-            classNameName='carousel-control-next-icon'
-            aria-hidden='true'
-          ></span>
-          <span classNameName='visually-hidden'>Next</span>
-        </a>
-      </div> */
-}
