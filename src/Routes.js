@@ -7,7 +7,7 @@ import NotFoundPage from './core/NotFoundPage'
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path='/' exact component={Home} />
         <Route exact path='/tshirt' exact component={Tshirt} />
