@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, withRouter } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -7,13 +8,13 @@ const Footer = () => {
         <div className='container'>
           <ul className='foote_bottom_ul_amrc'>
             <li>
-              <a href='/'>Home</a>
+              <Link to='/'>Tshirt</Link>
             </li>
             <li>
-              <a href='/mobilecover'>Mobile Cover</a>
+              <Link to='/mobilecover'>Mobile Cover</Link>
             </li>
             <li>
-              <a href='/tshirt'>Tshirts</a>
+              <Link to='/tshirt'>Tshirt</Link>
             </li>
           </ul>
           <p className='text-center'>Copyright @2021 | Merchistan</p>
@@ -46,4 +47,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default withRouter(Footer)

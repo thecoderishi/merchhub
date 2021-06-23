@@ -77,32 +77,3 @@ const Menu = ({ history }) => (
 )
 
 export default withRouter(Menu)
-{
-  /* <div className='menu'>
-    <ul className='nav nav-tabs bg-dark'>
-      <li className='nav-item'>
-        <Link style={currentTab(history, '/')} className='nav-link' to='/'>
-          Merchistan
-        </Link>
-      </li>
-      <li className='nav-item'>
-        <Link
-          style={currentTab(history, '/mobilecover')}
-          className='nav-link'
-          to='/mobilecover'
-        >
-          Mobile Cover
-        </Link>
-      </li>
-      <li className='nav-item'>
-        <Link
-          style={currentTab(history, '/tshirt')}
-          className='nav-link'
-          to='/tshirt'
-        >
-          Tshirt
-        </Link>
-      </li>
-    </ul>
-  </div> */
-}
