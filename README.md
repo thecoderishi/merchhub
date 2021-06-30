@@ -1,2 +1,2 @@
 # merchhub
-(Demo)[https://thecoderishi.github.io/merchhub/]
+[Demo](https://thecoderishi.github.io/merchhub/)
